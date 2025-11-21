@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>RecyIndia</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!-- Tabler Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css"
+    />
+
+    <!-- Fontawesome Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- select CSS -->
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+
+    <!-- Owlcarousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Mobile CSS-->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/intltelinput/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/intltelinput/css/demo.css" />
+
+    <!-- Feather CSS -->
+    <link rel="stylesheet" href="assets/css/feather.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <!-- Header -->
+      <header class="header header-new">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg header-nav">
+            <div class="navbar-header">
+              <a id="mobile_btn" href="javascript:void(0);">
+                <span class="bar-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </a>
+              <a
+                href="index.html"
+                class="navbar-brand logo d-lg-flex align-items-center gap-2"
+              >
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+              </a>
+              <a href="index.html" class="navbar-brand logo-small">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+              </a>
+            </div>
+            <div class="main-menu-wrapper">
+              <div class="menu-header">
+                <a href="index.html" class="menu-logo">
+                  <div class="d-flex align-items-center gap-2">
+                    <img
+                      src="assets/img/logo.png"
+                      class="img-fluid"
+                      alt="Logo"
+                      width="50"
+                    />
+                  </div>
+                </a>
+                <a
+                  id="menu_close"
+                  class="menu-close"
+                  href="javascript:void(0);"
+                >
+                  <i class="fas fa-times"></i
+                ></a>
+              </div>
+              <ul class="main-nav align-items-lg-center">
+                <li class="active">
+                  <a href="index.html">Home </a>
+                </li>
+                <li class="">
+                  <a href="about-us.html">About Us </a>
+                </li>
+                <li class="">
+                  <a href="services.html">Services </a>
+                </li>
+
+                <li class="">
+                  <a href="contact-us.html">Contact Us </a>
+                </li>
+
+                <li class="nav-item d-sm-none">
+                  <a class="nav-link" href="login.html">SignIn</a>
+                </li>
+                <li class="nav-item d-sm-none">
+                  <a class="nav-link" href="user-dashboard.html">Customers</a>
+                </li>
+                <li class="nav-item d-sm-none">
+                  <a
+                    class="nav-link btn btn-linear-primary"
+                    href="become-vendor.html"
+                    >Become a Vendor</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="nav header-navbar-rht">
+              <li class="nav-item pe-1">
+                <a class="nav-link btn btn-light" href="login.html"
+                  ><i class="ti ti-lock me-2"></i> SignIn</a
+                >
+              </li>
+              <li class="nav-item pe-1">
+                <a class="nav-link btn btn-light" href="user-dashboard.html"
+                  ><i class="ti ti-user me-2"></i> Customer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-linear-primary"
+                  href="become-vendor.html"
+                  ><i class="ti ti-user-filled me-2"></i>Become a Vendor</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-bar text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-12">
+              <h2 class="breadcrumb-title mb-2">Vendor Dashboard</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                  <li class="breadcrumb-item">Home</li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Vendor Dashboard
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="breadcrumb-bg">
+            <img
+              src="assets/img/bg/breadcrumb-bg-01.png"
+              class="breadcrumb-bg-1"
+              alt="Img"
+            />
+            <img
+              src="assets/img/bg/breadcrumb-bg-02.png"
+              class="breadcrumb-bg-2"
+              alt="Img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- /Breadcrumb -->
+
+      <!-- Page Wrapper -->
+      <section class="section info-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <!-- Stepper Header -->
+              <ul
+                class="nav nav-pills mb-4 justify-content-between"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="step1-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step1"
+                    type="button"
+                    role="tab"
+                  >
+                    1. Basic Details
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="step2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step2"
+                    type="button"
+                    role="tab"
+                  >
+                    2. Choose Plan
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="step3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step3"
+                    type="button"
+                    role="tab"
+                  >
+                    3. KYC Details
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="step4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step4"
+                    type="button"
+                    role="tab"
+                  >
+                    4. Confirmation
+                  </button>
+                </li>
+              </ul>
+
+              <!-- Stepper Content -->
+              <div class="tab-content" id="pills-tabContent">
+                <!-- Step 1 -->
+                <div
+                  class="tab-pane fade show active"
+                  id="step1"
+                  role="tabpanel"
+                >
+                  <div class="bg-light-300 p-3 text-center mb-3">
+                    <h4>Basic Details</h4>
+                  </div>
+                  <form>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Full Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your name"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Company Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter Company name"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Email Address</label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Enter your email"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">phone Number</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your phone number"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-check ps-0">
+                          <label class="form-label d-block"
+                            >Select Gender</label
+                          >
+                          <div
+                            class="form-radio d-inline-flex align-items-center mb-3 me-3"
+                          >
+                            <input
+                              class="form-check-input ms-0 mt-0"
+                              name="gender"
+                              type="radio"
+                              id="male"
+                              checked=""
+                            />
+                            <label class="form-check-label ms-2" for="male">
+                              Male
+                            </label>
+                          </div>
+                          <div
+                            class="form-radio d-inline-flex align-items-center mb-3 active"
+                          >
+                            <input
+                              class="form-check-input ms-0 mt-0"
+                              name="gender"
+                              type="radio"
+                              id="female"
+                            />
+                            <label class="form-check-label ms-2" for="female">
+                              Female
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Website (optional)</label>
+                          <input
+                            type="url"
+                            class="form-control"
+                            placeholder="Enter your website"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">GST No. (optional)</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your GSTIN"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Country</label>
+                          <select
+                            name="country "
+                            id=""
+                            class="form-select form-control"
+                          >
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Australia">Australia</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">State</label>
+                          <select
+                            name="state "
+                            id=""
+                            class="form-select form-control"
+                          >
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">City</label>
+                          <select
+                            name="city "
+                            id=""
+                            class="form-select form-control"
+                          >
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Locality</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your Locality"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Sub Locality</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your Sub Locality"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Pincode</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your Pincode"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <button
+                      class="btn btn-linear-primary next-step"
+                      data-next="#step2-tab"
+                    >
+                      Next <i class="ti ti-arrow-right"></i>
+                    </button>
+                  </form>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="tab-pane fade" id="step2" role="tabpanel">
+                  <section class="">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12 text-center">
+                          <div class="section-header text-center">
+                            <h2 class="mb-1">
+                              Pricing
+                              <span class="text-linear-primary">Plan</span>
+                            </h2>
+                            <p class="sub-title">
+                              Affordable plans designed to match your needs and
+                              budget.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="price-toggle price-toggle-seven text-center mb-0"
+                      >
+                        <div
+                          class="status-toggle toggle-pink d-inline-flex align-items-center"
+                        >
+                          Bill Monthly
+                          <input type="checkbox" id="status_1" class="check" />
+                          <label for="status_1" class="checktoggle mx-3"
+                            >checkbox</label
+                          >
+                          Bill Annualy
+                        </div>
+                      </div>
+                      <div
+                        class="row aos aos-init aos-animate"
+                        data-aos="fade-up"
+                      >
+                        <div class="col-lg-6 col-sm-12">
+                          <div
+                            class="pricing-plans price-new pricing-plans-seven"
+                          >
+                            <div class="pricing-plans-img">
+                              <img
+                                src="assets/img/icons/pricing-seven-3.svg"
+                                alt="image"
+                              />
+                            </div>
+                            <div class="pricing-planshead">
+                              <h5>Basic</h5>
+                              <h6><span>₹</span>2500.00</h6>
+                            </div>
+                            <div
+                              class="pricing-planscontent pricing-planscontent-seven"
+                            >
+                              <ul>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>1 Bathroom cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Up to 3 bedrooms cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Full Furnished Room Cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Additional 05 Rooms</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Small kitchen (0 - 150 ft2)</span>
+                                </li>
+                              </ul>
+                              <div class="pricing-btn">
+                                <a
+                                  href="services.html"
+                                  class="btn btn-view w-100"
+                                  >Choose Plan</a
+                                >
+                              </div>
+                              <div class="price-bg">
+                                <img
+                                  src="assets/img/bg/price-bg-vector-green.png"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                          <div
+                            class="pricing-plans price-new pricing-plans-seven active-seven"
+                          >
+                            <div class="price-block">
+                              <span class="popular">MOST POPULAR</span>
+                            </div>
+                            <div class="pricing-plans-img">
+                              <img
+                                src="assets/img/icons/pricing-seven-2.svg"
+                                alt="image"
+                              />
+                            </div>
+                            <div class="pricing-planshead">
+                              <h5>Standard</h5>
+                              <h6><span>₹</span>3500.99</h6>
+                            </div>
+                            <div
+                              class="pricing-planscontent pricing-planscontent-seven"
+                            >
+                              <ul>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>24/7 Customer Support</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Live Chat Assistance </span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Secure Payment Options</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Instant Booking & Tracking</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Multiple City Leads </span>
+                                </li>
+                              </ul>
+                              <div class="pricing-btn">
+                                <a
+                                  href="services.html"
+                                  class="btn btn-view w-100"
+                                  >Choose Plan</a
+                                >
+                              </div>
+                              <div class="price-bg">
+                                <img
+                                  src="assets/img/bg/price-bg-vector.png"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <button
+                    class="btn btn-light prev-step"
+                    data-prev="#step1-tab"
+                  >
+                    <i class="ti ti-arrow-left"></i> Back
+                  </button>
+                  <button
+                    class="btn btn-linear-primary next-step"
+                    data-next="#step3-tab"
+                  >
+                    Next <i class="ti ti-arrow-right"></i>
+                  </button>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="tab-pane fade" id="step3" role="tabpanel">
+                  <div class="bg-light-300 p-3 text-center mb-3">
+                    <h4>KYC Details</h4>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label"
+                      >Upload Aadhar Card (Front + Back)</label
+                    >
+                    <input type="file" class="form-control" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload Pan Card </label>
+                    <input type="file" class="form-control" />
+                  </div>
+
+                  <button
+                    class="btn btn-light prev-step"
+                    data-prev="#step2-tab"
+                  >
+                    <i class="ti ti-arrow-left"></i> Back
+                  </button>
+
+                  <button
+                    class="btn btn-linear-primary next-step"
+                    data-next="#step4-tab"
+                  >
+                    Next <i class="ti ti-arrow-right"></i>
+                  </button>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="tab-pane fade" id="step4" role="tabpanel">
+                  <div class="mb-4 text-center bg-light-300 p-3">
+                    <span class="success-icon mx-auto mb-4">
+                      <i class="ti ti-check"></i>
+                    </span>
+                    <h4 class="mb-1">Registration Successful</h4>
+                    <p>
+                      You will get a Verification link Via email for the Verify
+                      the Account.
+                    </p>
+                  </div>
+                  <button
+                    class="btn btn-light prev-step"
+                    data-prev="#step3-tab"
+                  >
+                    <i class="ti ti-arrow-left"></i> Back
+                  </button>
+                  <button class="btn btn-linear-primary">
+                    Submit <i class="ti ti-printer"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Page Wrapper -->
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-xl-3">
+                <div class="footer-widget">
+                  <h5 class="mb-4">Ouick Links</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="blog.html">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="footer-widget">
+                  <h5 class="mb-4">Support</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="help-center.html">Help center</a>
+                    </li>
+                    <li>
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="terms-condition.html">Terms and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="disclaimer.html">Disclaimer</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2">
+                <div class="footer-widget">
+                  <h5 class="mb-4">For Vendor</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="vendor-policy.html">Vendor Policy</a>
+                    </li>
+
+                    <li>
+                      <a href="faq.html">Faq’s</a>
+                    </li>
+                    <li>
+                      <a href="contact-us.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-xl-4">
+                <div class="footer-widget">
+                  <div class="d-flex align-items-center flex-wrap">
+                    <h6 class="fs-14 fw-normal me-2 mb-3">Download Our App</h6>
+                    <div>
+                      <a href="">
+                        <img
+                          src="assets/img/icons/app-store.svg"
+                          class="me-2"
+                          alt="img"
+                        />
+                      </a>
+                      <a href="">
+                        <img
+                          src="assets/img/icons/goolge-play.svg"
+                          class="me-2"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+            >
+              <ul class="social-icon mb-3">
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img src="assets/img/icons/fb.svg" class="img" alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/instagram.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/twitter.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/whatsapp.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/youtube.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/linkedin.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap"
+                >
+                  <p class="mb-2">
+                    Copyright &copy; 2025 - All Rights Reserved RecyIndia
+                  </p>
+                  <ul class="menu-links mb-2">
+                    <li>
+                      <a href="terms-condition.html"> Terms and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Footer Bottom -->
+      </footer>
+      <!-- /Footer -->
+    </div>
+    <!-- Jquery JS -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- Owlcarousel Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- select JS -->
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- counterup JS -->
+    <script src="assets/js/cursor.js"></script>
+
+    <!-- Mobile Input -->
+    <script src="assets/plugins/intltelinput/js/intlTelInput.js"></script>
+    <script src="assets/plugins/ityped/index.js"></script>
+
+    <!-- Validation-->
+    <script src="assets/js/validation.js"></script>
+
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+
+    <script
+      src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="661578f858a6a79394a6f885-|49"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"978a83cce98a4445","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"3ca157e612a14eccbb30cf6db6691c29"}'
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script>
+      // Step navigation handler
+      document.querySelectorAll(".next-step").forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          let nextTab = document.querySelector(this.dataset.next);
+          new bootstrap.Tab(nextTab).show();
+        });
+      });
+
+      document.querySelectorAll(".prev-step").forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          let prevTab = document.querySelector(this.dataset.prev);
+          new bootstrap.Tab(prevTab).show();
+        });
+      });
+    </script>
+  </body>
+</html>

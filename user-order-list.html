@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>RecyIndia</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!-- Tabler Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css"
+    />
+
+    <!-- Fontawesome Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- select CSS -->
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+
+    <!-- Owlcarousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Mobile CSS-->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/intltelinput/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/intltelinput/css/demo.css" />
+
+    <!-- Feather CSS -->
+    <link rel="stylesheet" href="assets/css/feather.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header header-two">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg header-nav">
+          <div class="navbar-header">
+            <a id="mobile_btn" href="javascript:void(0);">
+              <span class="bar-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </a>
+            <a href="index.html" class="navbar-brand logo">
+              <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+            </a>
+            <a href="index.html" class="navbar-brand logo-small">
+              <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+            </a>
+            <a
+              class="nav-link btn btn-light mx-2 position-relative d-sm-none"
+              href="cart.html"
+            >
+              <i class="ti ti-shopping-bag"></i>
+
+              <span
+                class="badge bg-primary text-white rounded-pill position-absolute top-0 start-100 translate-middle"
+                style="font-size: 10px"
+              >
+                5
+              </span>
+            </a>
+            <a
+              class="nav-link btn btn-light mx-2 position-relative d-sm-none"
+              href="user-dashboard.html"
+            >
+              <i class="ti ti-user"></i>
+            </a>
+          </div>
+          <div class="main-menu-wrapper">
+            <div class="menu-header">
+              <a href="index.html" class="menu-logo">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+              </a>
+              <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                <i class="fas fa-times"></i
+              ></a>
+            </div>
+            <ul class="main-nav">
+              <li class="has-submenu">
+                <a href="index.html">Home </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product-list.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="d-block d-sm-none">
+                <a
+                  class="nav-link btn btn-linear-primary"
+                  href="business-start.html"
+                  ><i class="ti ti-user-filled me-2"></i> Start Your Business</a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="nav header-navbar-rht">
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-light mx-2 position-relative"
+                href="cart.html"
+              >
+                <i class="ti ti-shopping-bag"></i>
+
+                <span
+                  class="badge bg-primary text-white rounded-pill position-absolute top-0 start-100 translate-middle"
+                  style="font-size: 10px"
+                >
+                  5
+                </span>
+              </a>
+
+              <a class="nav-link btn btn-light mx-2" href="login.html"
+                ><i class="ti ti-lock me-2"></i> SignIn</a
+              >
+              <a
+                class="nav-link btn btn-linear-primary"
+                href="business-start.html"
+                ><i class="ti ti-user-filled me-2"></i>Start Your Business</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-bar text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-start mb-0">
+                <li class="breadcrumb-item text-white">
+                  <i class="ti ti-home"></i>
+                </li>
+                <li class="breadcrumb-item text-white">User</li>
+                <li
+                  class="breadcrumb-item active text-white fs-18 fw-bold"
+                  aria-current="page"
+                >
+                  User Dashboard
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <div class="breadcrumb-bg">
+          <img
+            src="assets/img/bg/breadcrumb-bg-01.png"
+            class="breadcrumb-bg-1"
+            alt="Img"
+          />
+          <img
+            src="assets/img/bg/breadcrumb-bg-02.png"
+            class="breadcrumb-bg-2"
+            alt="Img"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- /Breadcrumb -->
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+      <div class="content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="col-xl-3 col-lg-4 theiaStickySidebar"
+              style="
+                position: relative;
+                overflow: visible;
+                box-sizing: border-box;
+                min-height: 1px;
+              "
+            >
+              <div
+                class="theiaStickySidebar"
+                style="
+                  padding-top: 0px;
+                  padding-bottom: 1px;
+                  position: static;
+                  transform: none;
+                  left: 149.5px;
+                  top: 0px;
+                "
+              >
+                <div class="card user-sidebar mb-4 mb-lg-0">
+                  <div class="card-header user-sidebar-header mb-4">
+                    <div
+                      class="d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <span class="user rounded-circle avatar avatar-xxl mb-2">
+                        <img
+                          src="assets/img/profiles/avatar-01.jpg"
+                          class="img-fluid rounded-circle"
+                          alt="Img"
+                        />
+                      </span>
+                      <h6 class="mb-2">Suraj Jamdade</h6>
+                      <p class="fs-14">suraj@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="card-body user-sidebar-body p-0">
+                    <ul>
+                      <li class="mb-4">
+                        <a
+                          href="user-dashboard.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-layout-grid me-2"></i>
+                          Dashboard
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="wishlist.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-heart me-2"></i>
+                          My Wishlist
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="user-order-list.html"
+                          class="d-flex align-items-center active"
+                        >
+                          <i class="ti ti-shopping-bag me-2"></i>
+                          My Orders
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="user-booking-list.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-device-mobile me-2"></i>
+                          My Bookings
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="user-services-list.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-settings me-2"></i>
+                          My Services
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="my-wallet.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-wallet me-2"></i>
+                          My Wallet
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="notifications.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-bell me-2"></i>
+                          Notifications
+                        </a>
+                      </li>
+
+                      <li class="mb-4">
+                        <a
+                          href="customer-reviews.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-star me-2"></i>
+                          Reviews
+                        </a>
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="account-settings.html"
+                          class="d-flex align-items-center"
+                        >
+                          <i class="ti ti-settings me-2"></i>
+                          Settings
+                        </a>
+                      </li>
+
+                      <li class="mb-0">
+                        <a href="login.html" class="d-flex align-items-center">
+                          <i class="ti ti-logout me-2"></i>
+                          Logout
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-8">
+              <div
+                class="d-flex align-items-center justify-content-between flex-wrap row-gap-3 mb-4"
+              >
+                <h4>My Order List</h4>
+              </div>
+              <div class="table-responsive">
+                <table class="table mb-0">
+                  <tbody>
+                    <tr class="mb-2">
+                      <td>
+                        <a
+                          href="product-details.html"
+                          class="d-flex align-items-start"
+                        >
+                          <!-- Product Image -->
+                          <span class="avatar avatar-lg me-3">
+                            <img
+                              src="assets/img/products/1.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </span>
+
+                          <!-- Product Details + Quantity -->
+                          <div class="d-flex justify-content-between w-100">
+                            <!-- LEFT: Product Name + Price -->
+                            <div>
+                              <h6 class="fs-14 mb-1">Toothbrush</h6>
+                              <span class="text-success fw-bold fs-12">
+                                ₹200.00
+                                <span class="text-muted"
+                                  ><del>₹350.00</del></span
+                                >
+                              </span>
+                            </div>
+
+                            <!-- RIGHT: Quantity -->
+                            <div class="text-end ms-4">
+                              <h6 class="fs-14 mb-1">Quantity</h6>
+                              <span class="fw-bold text-primary fs-18">2</span>
+                            </div>
+                          </div>
+                        </a>
+                      </td>
+
+                      <td class="text-end">
+                        <a
+                          href="javascript:void(0);"
+                          class="btn btn-light btn-sm"
+                          data-bs-toggle="modal"
+                          data-bs-target="#cancelReasonModal"
+                        >
+                          Cancel
+                        </a>
+                      </td>
+                    </tr>
+                    <tr class="mb-2">
+                      <td>
+                        <a
+                          href="product-details.html"
+                          class="d-flex align-items-start"
+                        >
+                          <!-- Product Image -->
+                          <span class="avatar avatar-lg me-3">
+                            <img
+                              src="assets/img/products/1.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </span>
+
+                          <!-- Product Details + Quantity -->
+                          <div class="d-flex justify-content-between w-100">
+                            <!-- LEFT: Product Name + Price -->
+                            <div>
+                              <h6 class="fs-14 mb-1">Toothbrush</h6>
+                              <span class="text-success fw-bold fs-12">
+                                ₹200.00
+                                <span class="text-muted"
+                                  ><del>₹350.00</del></span
+                                >
+                              </span>
+                            </div>
+
+                            <!-- RIGHT: Quantity -->
+                            <div class="text-end ms-4">
+                              <h6 class="fs-14 mb-1">Quantity</h6>
+                              <span class="fw-bold text-primary fs-18">2</span>
+                            </div>
+                          </div>
+                        </a>
+                      </td>
+
+                      <td class="text-end">
+                        <a
+                          href="javascript:void(0);"
+                          class="btn btn-light btn-sm"
+                          data-bs-toggle="modal"
+                          data-bs-target="#cancelReasonModal"
+                        >
+                          Cancel
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr class="mb-2">
+                      <td>
+                        <a
+                          href="product-details.html"
+                          class="d-flex align-items-start"
+                        >
+                          <!-- Product Image -->
+                          <span class="avatar avatar-lg me-3">
+                            <img
+                              src="assets/img/products/1.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </span>
+
+                          <!-- Product Details + Quantity -->
+                          <div class="d-flex justify-content-between w-100">
+                            <!-- LEFT: Product Name + Price -->
+                            <div>
+                              <h6 class="fs-14 mb-1">Toothbrush</h6>
+                              <span class="text-success fw-bold fs-12">
+                                ₹200.00
+                                <span class="text-muted"
+                                  ><del>₹350.00</del></span
+                                >
+                              </span>
+                            </div>
+
+                            <!-- RIGHT: Quantity -->
+                            <div class="text-end ms-4">
+                              <h6 class="fs-14 mb-1">Quantity</h6>
+                              <span class="fw-bold text-primary fs-18">2</span>
+                            </div>
+                          </div>
+                        </a>
+                      </td>
+
+                      <td class="text-end">
+                        <a
+                          href="javascript:void(0);"
+                          class="btn btn-light btn-sm"
+                          data-bs-toggle="modal"
+                          data-bs-target="#cancelReasonModal"
+                        >
+                          Cancel
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr class="mb-2">
+                      <td>
+                        <a
+                          href="product-details.html"
+                          class="d-flex align-items-start"
+                        >
+                          <!-- Product Image -->
+                          <span class="avatar avatar-lg me-3">
+                            <img
+                              src="assets/img/products/1.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </span>
+
+                          <!-- Product Details + Quantity -->
+                          <div class="d-flex justify-content-between w-100">
+                            <!-- LEFT: Product Name + Price -->
+                            <div>
+                              <h6 class="fs-14 mb-1">Toothbrush</h6>
+                              <span class="text-success fw-bold fs-12">
+                                ₹200.00
+                                <span class="text-muted"
+                                  ><del>₹350.00</del></span
+                                >
+                              </span>
+                            </div>
+
+                            <!-- RIGHT: Quantity -->
+                            <div class="text-end ms-4">
+                              <h6 class="fs-14 mb-1">Quantity</h6>
+                              <span class="fw-bold text-primary fs-18">2</span>
+                            </div>
+                          </div>
+                        </a>
+                      </td>
+
+                      <td class="text-end">
+                        <a
+                          href="javascript:void(0);"
+                          class="btn btn-light btn-sm"
+                          data-bs-toggle="modal"
+                          data-bs-target="#cancelReasonModal"
+                        >
+                          Cancel
+                        </a>
+                      </td>
+                    </tr>
+
+                    <tr class="mb-2">
+                      <td>
+                        <a
+                          href="product-details.html"
+                          class="d-flex align-items-start"
+                        >
+                          <!-- Product Image -->
+                          <span class="avatar avatar-lg me-3">
+                            <img
+                              src="assets/img/products/1.jpg"
+                              class="img-fluid"
+                              alt="img"
+                            />
+                          </span>
+
+                          <!-- Product Details + Quantity -->
+                          <div class="d-flex justify-content-between w-100">
+                            <!-- LEFT: Product Name + Price -->
+                            <div>
+                              <h6 class="fs-14 mb-1">Toothbrush</h6>
+                              <span class="text-success fw-bold fs-12">
+                                ₹200.00
+                                <span class="text-muted"
+                                  ><del>₹350.00</del></span
+                                >
+                              </span>
+                            </div>
+
+                            <!-- RIGHT: Quantity -->
+                            <div class="text-end ms-4">
+                              <h6 class="fs-14 mb-1">Quantity</h6>
+                              <span class="fw-bold text-primary fs-18">2</span>
+                            </div>
+                          </div>
+                        </a>
+                      </td>
+
+                      <td class="text-end">
+                        <a
+                          href="javascript:void(0);"
+                          class="btn btn-light btn-sm"
+                          data-bs-toggle="modal"
+                          data-bs-target="#cancelReasonModal"
+                        >
+                          Cancel
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Page Wrapper -->
+
+    <!-- modal start -->
+    <!-- Cancel Reason Modal -->
+    <div
+      class="modal fade"
+      id="cancelReasonModal"
+      tabindex="-1"
+      aria-labelledby="cancelReasonLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cancelReasonLabel">Cancel Order</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <label class="mb-2">Why are you cancelling?</label>
+
+            <select class="form-select" id="cancelReason">
+              <option value="">Select Reason</option>
+              <option value="Changed my mind">Changed my mind</option>
+              <option value="Found a better price">Found a better price</option>
+              <option value="Ordered by mistake">Ordered by mistake</option>
+              <option value="Product issue">Issue with product</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <textarea
+              class="form-control mt-3"
+              rows="3"
+              placeholder="Additional comments (optional)"
+            ></textarea>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button class="btn btn-success btn-sm">Submit Reason</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal end -->
+
+    <!-- Footer -->
+    <footer class="footer footer-two border-0">
+      <!-- Footer Top -->
+      <div class="footer-top aos" data-aos="fade-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <!-- Footer Widget -->
+              <div class="footer-widget">
+                <!-- Footer Widget -->
+                <div class="footer-widget footer-contact">
+                  <div class="footer-contact-info">
+                    <div class="footer-address">
+                      <span><i class="feather-phone-call"></i></span>
+                      <div>
+                        <h6>Tel</h6>
+                        <p>+91 9090909090</p>
+                      </div>
+                    </div>
+                    <div class="footer-address">
+                      <span><i class="feather-mail"></i></span>
+                      <div>
+                        <h6>Email Address</h6>
+                        <p>
+                          <a href="" class="text-white">info@rindia.com</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="footer-address">
+                      <span><i class="feather-map-pin"></i></span>
+                      <div>
+                        <h6>Address</h6>
+                        <p>
+                          367 Hillcrest Lane, Irvine, California, United States
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Footer Widget -->
+              </div>
+              <!-- /Footer Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+              <!-- Footer Widget -->
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">Company</h2>
+                <ul>
+                  <li>
+                    <a href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="categories.html">Categories</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="faq.html">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="services-list.html">Services</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Footer Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+              <!-- Footer Widget -->
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">Support</h2>
+                <ul>
+                  <li>
+                    <a href="help-center.html">Help Center</a>
+                  </li>
+                  <li>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="terms-condition.html">Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="disclaimer.html">Disclaimer</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Footer Widget -->
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+              <!-- Footer Widget -->
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">For Vendor</h2>
+                <ul>
+                  <li>
+                    <a href="vendor-policy.html">Vendor Policy</a>
+                  </li>
+                  <li>
+                    <a href="faq.html">Faq's</a>
+                  </li>
+                  <li>
+                    <a href="contact-us.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /Footer Widget -->
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
+              <!-- Footer Widget -->
+              <div class="footer-widget">
+                <h2 class="footer-title">Download App</h2>
+                <div>
+                  <a href="">
+                    <img
+                      src="assets/img/icons/app-store.svg"
+                      class="me-2"
+                      alt="img"
+                    />
+                  </a>
+                  <a href="">
+                    <img
+                      src="assets/img/icons/goolge-play.svg"
+                      class="me-2"
+                      alt="img"
+                    />
+                  </a>
+                </div>
+              </div>
+              <!-- /Footer Widget -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Footer Top -->
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="container">
+          <!-- Copyright -->
+          <div class="copyright">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-6">
+                <div class="social-icon">
+                  <ul>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fa-brands fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fa-brands fa-google"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fa-brands fa-youtube"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <!-- Copyright Menu -->
+                <div class="copyright-text">
+                  <p class="mb-0">
+                    Copyright &copy; 2025. All Rights Reserved.
+                  </p>
+                </div>
+                <!-- /Copyright Menu -->
+              </div>
+            </div>
+          </div>
+          <!-- /Copyright -->
+        </div>
+      </div>
+      <!-- /Footer Bottom -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Jquery JS -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- select JS -->
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- Datetimepicker JS -->
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Sticky Sidebar JS -->
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <!-- Owlcarousel Js -->
+    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- counterup JS -->
+    <script src="assets/js/cursor.js"></script>
+
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+    <script
+      src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="1e610b06cb60324f2b1cea0f-|49"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"97a5d6de3b533d26","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"3ca157e612a14eccbb30cf6db6691c29"}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
