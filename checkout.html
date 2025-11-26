@@ -236,7 +236,6 @@
                           type="text"
                           class="form-control"
                           id="name"
-                          placeholder="Enter your full name"
                           required
                         />
                       </div>
@@ -248,7 +247,6 @@
                           type="tel"
                           class="form-control"
                           id="phone"
-                          placeholder="Enter your phone number"
                           required
                         />
                       </div>
@@ -260,7 +258,6 @@
                           type="email"
                           class="form-control"
                           id="email"
-                          placeholder="Enter your email"
                           required
                         />
                       </div>
@@ -270,7 +267,6 @@
                           type="text"
                           class="form-control"
                           id="pincode"
-                          placeholder="Enter pincode"
                           required
                         />
                       </div>
@@ -281,12 +277,26 @@
                       Shipping Address
                     </h6>
                     <div class="mb-4">
-                      <label for="address" class="form-label">Address</label>
+                      <label for="address" class="form-label"
+                        >Address (House No.Area ,etc)</label
+                      >
                       <textarea
                         class="form-control"
                         id="address"
                         rows="3"
-                        placeholder="Enter your full address"
+                        required
+                      ></textarea>
+                    </div>
+
+                    <div class="mb-4">
+                      <label for="address" class="form-label"
+                        >Landmark (optional)</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="address"
+                        rows="3"
+                        placeholder=""
                         required
                       ></textarea>
                     </div>
@@ -298,7 +308,6 @@
                           type="text"
                           class="form-control"
                           id="city"
-                          placeholder="Enter city"
                           required
                         />
                       </div>
@@ -308,9 +317,21 @@
                           type="text"
                           class="form-control"
                           id="state"
-                          placeholder="Enter state"
                           required
                         />
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="form-check mt-2">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="saveInfo"
+                          />
+                          <label class="form-check-label" for="saveInfo">
+                            Save information for next time
+                          </label>
+                        </div>
                       </div>
                     </div>
 
@@ -342,31 +363,66 @@
               >
                 <div class="card border-0">
                   <div class="card-body">
+                    <!-- Payment Options -->
+                    <h6 class="text-muted mb-3 fw-semibold">Prepaid or COD</h6>
+                    <div
+                      class="form-check mb-2 d-flex justify-content-between text-dark"
+                    >
+                      <div>
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="payment"
+                          id="cod"
+                          checked
+                        />
+                        <label class="form-check-label text-dark" for="cod"
+                          >Prepaid
+                        </label>
+                      </div>
+                      <p class="fs-12 fw-bold">FREE</p>
+                    </div>
+                    <div
+                      class="form-check mb-4 d-flex justify-content-between text-dark"
+                    >
+                      <div>
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="payment"
+                          id="online"
+                        />
+                        <label class="form-check-label text-dark" for="online"
+                          >COD Fees</label
+                        >
+                      </div>
+                      <p class="fs-12 fw-bold">₹70.00</p>
+                    </div>
                     <h5 class="mb-3 text-dark fw-semibold">Order Summary</h5>
 
                     <div
                       class="d-flex align-items-center justify-content-between mb-3"
                     >
-                      <h6 class="fs-16 fw-medium mb-0">Product Cost</h6>
-                      <p>₹200.00</p>
+                      <h6 class="fs-12 fw-medium mb-0">Product Cost</h6>
+                      <p class="fs-12 fw-bold">₹ 200.00</p>
                     </div>
                     <div
                       class="d-flex align-items-center justify-content-between mb-3"
                     >
-                      <h6 class="fs-16 fw-medium mb-0">Shipping Charge</h6>
-                      <p>₹40.00</p>
+                      <h6 class="fs-12 fw-medium mb-0">Shipping Charge</h6>
+                      <p class="fs-12 fw-bold">₹ 70.00</p>
                     </div>
                     <div
                       class="d-flex align-items-center justify-content-between mb-3"
                     >
-                      <h6 class="fs-16 fw-medium mb-0">GST</h6>
-                      <p>18%</p>
+                      <h6 class="fs-12 fw-medium mb-0">GST</h6>
+                      <p class="fs-12 fw-bold">₹ 80.00 (18%)</p>
                     </div>
                     <div
                       class="d-flex align-items-center justify-content-between mb-3"
                     >
-                      <h6 class="fs-16 fw-medium mb-0">Tax</h6>
-                      <p>4%</p>
+                      <h6 class="fs-12 fw-medium mb-0">Tax</h6>
+                      <p class="fs-12 fw-bold">₹ 70.00 (4%)</p>
                     </div>
 
                     <div class="row border-top pt-3 g-2">
@@ -377,34 +433,6 @@
                           class="form-control"
                           placeholder="Enter Coupon"
                         />
-                      </div>
-
-                      <!-- Payment Options -->
-                      <h6 class="text-muted mb-3 fw-semibold">
-                        Payment Method
-                      </h6>
-                      <div class="form-check mb-2">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="payment"
-                          id="cod"
-                          checked
-                        />
-                        <label class="form-check-label" for="cod"
-                          >Cash on Delivery</label
-                        >
-                      </div>
-                      <div class="form-check mb-4">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="payment"
-                          id="online"
-                        />
-                        <label class="form-check-label" for="online"
-                          >Online Payment (UPI / Card / Netbanking)</label
-                        >
                       </div>
 
                       <div
@@ -464,7 +492,8 @@
                       <div>
                         <h6>Address</h6>
                         <p>
-                          367 Hillcrest Lane, Irvine, California, United States
+                          EON Free Zone, Kharadi, Pune, Maharashtra
+                          411014.&nbsp;&nbsp;
                         </p>
                       </div>
                     </div>
@@ -488,9 +517,7 @@
                   <li>
                     <a href="blog.html">Blogs</a>
                   </li>
-                  <li>
-                    <a href="faq.html">FAQ</a>
-                  </li>
+
                   <li>
                     <a href="services-list.html">Services</a>
                   </li>
@@ -545,13 +572,6 @@
                 <div>
                   <a href="">
                     <img
-                      src="assets/img/icons/app-store.svg"
-                      class="me-2"
-                      alt="img"
-                    />
-                  </a>
-                  <a href="">
-                    <img
                       src="assets/img/icons/goolge-play.svg"
                       class="me-2"
                       alt="img"
@@ -590,11 +610,7 @@
                         ><i class="fa-brands fa-instagram"></i
                       ></a>
                     </li>
-                    <li>
-                      <a href="javascript:void(0);"
-                        ><i class="fa-brands fa-google"></i
-                      ></a>
-                    </li>
+
                     <li>
                       <a href="javascript:void(0);"
                         ><i class="fa-brands fa-youtube"></i
@@ -607,7 +623,7 @@
                 <!-- Copyright Menu -->
                 <div class="copyright-text">
                   <p class="mb-0">
-                    Copyright &copy; 2025. All Rights Reserved.
+                    RecyIndia • Copyright © 2025. All Rights Reserved.
                   </p>
                 </div>
                 <!-- /Copyright Menu -->

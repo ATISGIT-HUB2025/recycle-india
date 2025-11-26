@@ -8443,7 +8443,7 @@ table.table-bordered thead tr th p {
 }
 
 .breadcrumb-bar {
-  background: linear-gradient(to bottom, #0fa74c, #008f4d);
+  background: linear-gradient(to bottom, #ae8919, #0c5b0f);
   padding: 40px 0;
   position: relative;
 }
@@ -8766,7 +8766,7 @@ header.header-five.fixed .header-button.header-button-five {
 .logo img {
   height: auto;
   max-width: 100%;
-  max-height: 50px;
+  max-height: 70px;
 }
 
 .logo a {
@@ -9857,7 +9857,7 @@ html.menu-opened body {
 
 @media only screen and (min-width: 992px) {
   .main-nav > li {
-    margin-right: 60px;
+    margin-right: 40px;
   }
   .main-nav > li:last-child {
     margin-right: 0;
@@ -9869,6 +9869,7 @@ html.menu-opened body {
   .main-nav > li > a {
     line-height: 85px;
     padding: 0 !important;
+    font-size: 14px;
   }
   .header.header-nine .main-nav > li > a {
     line-height: 56px;
@@ -13173,7 +13174,7 @@ footer .footer-top .dropdown a img {
 }
 
 footer .footer-bottom {
-  background-color: #01914d;
+  background-color: #0c5b0f;
   border-top: 1px solid #ebeced;
   padding: 20px 0 12px;
 }
@@ -23558,7 +23559,7 @@ fieldset.booking-content#first-field {
 }
 
 .footer .footer-top {
-  background-color: #01914d;
+  background-color: #ae8919;
   padding: 50px 0;
 }
 
