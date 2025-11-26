@@ -83,7 +83,7 @@
 }
 
 .hero-bg-container {
-  background: rgba(62, 107, 14, 0.9);
+  background: linear-gradient(to bottom, #f8f5e9f2, #f8f5e9ad);
   padding: 100px;
   border: 1px solid #000;
 }
@@ -111,7 +111,7 @@
 }
 
 .choose-us-inside-container {
-  background: linear-gradient(to bottom, #0fa74c, #008f4d);
+  background: linear-gradient(to bottom, #f8f5e9, #f8f5e9);
   padding: 50px;
   border-radius: 10px;
 }

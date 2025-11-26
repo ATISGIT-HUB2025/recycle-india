@@ -195,12 +195,12 @@
                   <li class="breadcrumb-item text-white">
                     <i class="ti ti-home"></i>
                   </li>
-                  <li class="breadcrumb-item text-white">User</li>
+                  <li class="breadcrumb-item text-white">Become a Vendor</li>
                   <li
                     class="breadcrumb-item active text-white fs-18 fw-bold"
                     aria-current="page"
                   >
-                    Start Your Business
+                    Register as Recycling Factory
                   </li>
                 </ol>
               </nav>
@@ -254,7 +254,31 @@
                     type="button"
                     role="tab"
                   >
-                    2. Product Details
+                    2. Choose Plan
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="step3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step3"
+                    type="button"
+                    role="tab"
+                  >
+                    3. KYC Details
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="step4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#step4"
+                    type="button"
+                    role="tab"
+                  >
+                    4. Confirmation
                   </button>
                 </li>
               </ul>
@@ -274,72 +298,73 @@
                     <div class="row">
                       <div class="col-lg-6">
                         <div class="mb-3">
-                          <label class="form-label">Full Name</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your name"
-                          />
+                          <label class="form-label">Factory Name</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Owner / Manager Name</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Mobile Number</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label">Email Address</label>
+                          <input type="email" class="form-control" />
                         </div>
                       </div>
 
                       <div class="col-lg-6">
                         <div class="mb-3">
                           <label class="form-label"
-                            >Email Address (Optional)</label
+                            >Type of Recycling Factory</label
                           >
-                          <input
-                            type="email"
-                            class="form-control"
-                            placeholder="Enter your email"
-                          />
+                          <select
+                            name=""
+                            id=""
+                            class="form-select form-control"
+                          >
+                            <option value="Plastic">Plastic</option>
+                            <option value="Metal">Metal</option>
+                            <option value="Glass">Glass</option>
+                            <option value="E-waste">E-waste</option>
+                            <option value="Organic">Organic</option>
+                            <option value="Mixed">Mixed Waste</option>
+                          </select>
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="mb-3">
-                          <label class="form-label">phone Number</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your phone number"
-                          />
+                          <label class="form-label"
+                            >Factory Registration No. (optional)</label
+                          >
+                          <input type="text" class="form-control" />
                         </div>
                       </div>
                       <div class="col-lg-6">
-                        <div class="form-check ps-0">
-                          <label class="form-label d-block"
-                            >Select Gender</label
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >GST Number (optional)</label
                           >
-                          <div
-                            class="form-radio d-inline-flex align-items-center mb-3 me-3"
-                          >
-                            <input
-                              class="form-check-input ms-0 mt-0"
-                              name="gender"
-                              type="radio"
-                              id="male"
-                              checked=""
-                            />
-                            <label class="form-check-label ms-2" for="male">
-                              Male
-                            </label>
-                          </div>
-                          <div
-                            class="form-radio d-inline-flex align-items-center mb-3 active"
-                          >
-                            <input
-                              class="form-check-input ms-0 mt-0"
-                              name="gender"
-                              type="radio"
-                              id="female"
-                            />
-                            <label class="form-check-label ms-2" for="female">
-                              Female
-                            </label>
-                          </div>
+                          <input type="text" class="form-control" />
                         </div>
                       </div>
-
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >Upload Factory License / Document (PDF/JPG)</label
+                          >
+                          <input type="file" class="form-control" />
+                        </div>
+                      </div>
                       <div class="col-lg-6">
                         <div class="mb-3">
                           <label class="form-label">Country</label>
@@ -418,14 +443,64 @@
                           />
                         </div>
                       </div>
+                      <div class="col-lg-12">
+                        <div class="mb-3">
+                          <label class="form-label">Full Address</label>
+                          <textarea
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="3"
+                            class="form-control"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >Google Map Location (optional)</label
+                          >
+                          <textarea
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="3"
+                            class="form-control"
+                          ></textarea>
+                        </div>
+                      </div>
+
                       <div class="col-lg-6">
                         <div class="mb-3">
-                          <label class="form-label">House No</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your Pincode"
-                          />
+                          <label class="form-label"
+                            >Types of products you recycle</label
+                          >
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >Do you Buy waste, Sell recycled products, or Both?
+                          </label>
+                          <select
+                            name=""
+                            id=""
+                            class="form-select form-control"
+                          >
+                            <option value="Buy">Buy</option>
+                            <option value="Sell">Sell</option>
+                            <option value="Both">Both</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="mb-3">
+                          <label class="form-label"
+                            >Upload sample product images</label
+                          >
+                          <input type="file" class="form-control" />
                         </div>
                       </div>
                     </div>
@@ -441,195 +516,156 @@
 
                 <!-- Step 2 -->
                 <div class="tab-pane fade" id="step2" role="tabpanel">
-                  <div class="bg-light-300 p-3 text-center mb-3">
-                    <h4>Product Details</h4>
-                  </div>
-                  <form>
-                    <div class="row">
-                      <!-- Product Name -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label">Product Name</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter product name"
-                          />
-                        </div>
-                      </div>
-
-                      <!-- Brand -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label">Brand</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Brand name (optional)"
-                          />
-                        </div>
-                      </div>
-
-                      <!-- Quantity + Unit (Single Box) -->
-                      <div class="col-lg-12">
-                        <label class="form-label">Product Quantity</label>
-                        <div class="input-group mb-3">
-                          <input
-                            type="number"
-                            class="form-control"
-                            placeholder="0"
-                          />
-                          <select class="form-select" style="max-width: 120px">
-                            <option value="kg">Kg</option>
-                            <option value="ltr">Litre</option>
-                            <option value="gm">Gram</option>
-                            <option value="piece">Piece</option>
-                            <option value="dozen">Dozen</option>
-                            <option value="meter">Meter</option>
-                            <option value="feet">Feet</option>
-                            <option value="inch">Inch</option>
-                            <option value="cm">Cm</option>
-                            <option value="mm">Mm</option>
-                            <option value="ml">Ml</option>
-                            <option value="l">L</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <!-- Price -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label">Price</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="₹ Price"
-                          />
-                        </div>
-                      </div>
-
-                      <!-- Price Negotiation -->
-                      <div class="col-lg-6">
-                        <div class="form-check ps-0">
-                          <label class="form-label d-block"
-                            >Price Negotiation</label
-                          >
-                          <div
-                            class="form-radio d-inline-flex align-items-center mb-3 me-3"
-                          >
-                            <input
-                              class="form-check-input ms-0 mt-0"
-                              name="nego"
-                              type="radio"
-                              id="negoYes"
-                              checked
-                            />
-                            <label class="form-check-label ms-2" for="negoYes"
-                              >Yes</label
-                            >
-                          </div>
-                          <div
-                            class="form-radio d-inline-flex align-items-center mb-3"
-                          >
-                            <input
-                              class="form-check-input ms-0 mt-0"
-                              name="nego"
-                              type="radio"
-                              id="negoNo"
-                            />
-                            <label class="form-check-label ms-2" for="negoNo"
-                              >No</label
-                            >
+                  <section class="">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12 text-center">
+                          <div class="section-header text-center">
+                            <h2 class="mb-1">
+                              Pricing
+                              <span class="text-linear-primary">Plan</span>
+                            </h2>
+                            <p class="sub-title">
+                              Affordable plans designed to match your needs and
+                              budget.
+                            </p>
                           </div>
                         </div>
                       </div>
-
-                      <!-- Purchase Date -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label"
-                            >Purchase Date (Optional)</label
+                      <div
+                        class="price-toggle price-toggle-seven text-center mb-0"
+                      >
+                        <div
+                          class="status-toggle toggle-pink d-inline-flex align-items-center"
+                        >
+                          Bill Monthly
+                          <input type="checkbox" id="status_1" class="check" />
+                          <label for="status_1" class="checktoggle mx-3"
+                            >checkbox</label
                           >
-                          <input type="date" class="form-control" />
+                          Bill Annualy
                         </div>
                       </div>
-
-                      <!-- Expiry Date -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label"
-                            >Expiry Date (Optional)</label
+                      <div
+                        class="row aos aos-init aos-animate"
+                        data-aos="fade-up"
+                      >
+                        <div class="col-lg-6 col-sm-12">
+                          <div
+                            class="pricing-plans price-new pricing-plans-seven"
                           >
-                          <input type="date" class="form-control" />
+                            <div class="pricing-plans-img">
+                              <img
+                                src="assets/img/icons/pricing-seven-3.svg"
+                                alt="image"
+                              />
+                            </div>
+                            <div class="pricing-planshead">
+                              <h5>Basic</h5>
+                              <h6><span>₹</span>2500.00</h6>
+                            </div>
+                            <div
+                              class="pricing-planscontent pricing-planscontent-seven"
+                            >
+                              <ul>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>1 Bathroom cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Up to 3 bedrooms cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Full Furnished Room Cleaning</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Additional 05 Rooms</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Small kitchen (0 - 150 ft2)</span>
+                                </li>
+                              </ul>
+                              <div class="pricing-btn">
+                                <a
+                                  href="services.html"
+                                  class="btn btn-view w-100"
+                                  >Choose Plan</a
+                                >
+                              </div>
+                              <div class="price-bg">
+                                <img
+                                  src="assets/img/bg/price-bg-vector-green.png"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-
-                      <!-- GST -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label"
-                            >Product GST No. (Optional)</label
+                        <div class="col-lg-6 col-sm-12">
+                          <div
+                            class="pricing-plans price-new pricing-plans-seven active-seven"
                           >
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter GST number"
-                          />
-                        </div>
-                      </div>
-
-                      <!-- Category -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label">Category</label>
-                          <select class="form-select">
-                            <option>Select Category</option>
-                            <option>Electronics</option>
-                            <option>Grocery</option>
-                            <option>Home Appliance</option>
-                            <option>Fashion</option>
-                            <option>Hardware</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <!-- Condition -->
-                      <div class="col-lg-6">
-                        <div class="mb-3">
-                          <label class="form-label">Condition</label>
-                          <select class="form-select">
-                            <option value="new">New</option>
-                            <option value="used">Used</option>
-                            <option value="refurbished">Refurbished</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <!-- Description -->
-                      <div class="col-lg-12">
-                        <div class="mb-3">
-                          <label class="form-label">Product Description</label>
-                          <textarea
-                            rows="5"
-                            placeholder="Enter your product description"
-                            class="form-control"
-                          ></textarea>
-                        </div>
-                      </div>
-
-                      <!-- Multi Image Upload -->
-                      <div class="col-lg-12">
-                        <div class="mb-3">
-                          <label class="form-label">Product Images</label>
-                          <input type="file" class="form-control" multiple />
-                          <small class="text-muted"
-                            >You can upload multiple images</small
-                          >
+                            <div class="price-block">
+                              <span class="popular">MOST POPULAR</span>
+                            </div>
+                            <div class="pricing-plans-img">
+                              <img
+                                src="assets/img/icons/pricing-seven-2.svg"
+                                alt="image"
+                              />
+                            </div>
+                            <div class="pricing-planshead">
+                              <h5>Standard</h5>
+                              <h6><span>₹</span>3500.99</h6>
+                            </div>
+                            <div
+                              class="pricing-planscontent pricing-planscontent-seven"
+                            >
+                              <ul>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>24/7 Customer Support</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Live Chat Assistance </span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Secure Payment Options</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Instant Booking & Tracking</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check me-2"></i>
+                                  <span>Multiple City Leads </span>
+                                </li>
+                              </ul>
+                              <div class="pricing-btn">
+                                <a
+                                  href="services.html"
+                                  class="btn btn-view w-100"
+                                  >Choose Plan</a
+                                >
+                              </div>
+                              <div class="price-bg">
+                                <img
+                                  src="assets/img/bg/price-bg-vector.png"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </form>
-
+                  </section>
                   <button
                     class="btn btn-light prev-step"
                     data-prev="#step1-tab"
@@ -640,7 +676,69 @@
                     class="btn btn-linear-primary next-step"
                     data-next="#step3-tab"
                   >
-                    Submit <i class="ti ti-arrow-right"></i>
+                    Next <i class="ti ti-arrow-right"></i>
+                  </button>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="tab-pane fade" id="step3" role="tabpanel">
+                  <div class="bg-light-300 p-3 text-center mb-3">
+                    <h4>KYC Details</h4>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Aadhar Card Number</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label"
+                      >Upload Aadhar Card (Front + Back)</label
+                    >
+                    <input type="file" class="form-control" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Pan Card Number</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload Pan Card </label>
+                    <input type="file" class="form-control" />
+                  </div>
+
+                  <button
+                    class="btn btn-light prev-step"
+                    data-prev="#step2-tab"
+                  >
+                    <i class="ti ti-arrow-left"></i> Back
+                  </button>
+
+                  <button
+                    class="btn btn-linear-primary next-step"
+                    data-next="#step4-tab"
+                  >
+                    Next <i class="ti ti-arrow-right"></i>
+                  </button>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="tab-pane fade" id="step4" role="tabpanel">
+                  <div class="mb-4 text-center bg-light-300 p-3">
+                    <span class="success-icon mx-auto mb-4">
+                      <i class="ti ti-check"></i>
+                    </span>
+                    <h4 class="mb-1">Registration Successful</h4>
+                    <p>
+                      You will get a Verification link Via email for the Verify
+                      the Account.
+                    </p>
+                  </div>
+                  <button
+                    class="btn btn-light prev-step"
+                    data-prev="#step3-tab"
+                  >
+                    <i class="ti ti-arrow-left"></i> Back
+                  </button>
+                  <button class="btn btn-linear-primary">
+                    Submit <i class="ti ti-printer"></i>
                   </button>
                 </div>
               </div>
